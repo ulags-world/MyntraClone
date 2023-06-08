@@ -1,0 +1,164 @@
+.account {
+  background-color: rgb(252, 238, 234);
+  padding-top: 29px;
+}
+.account__card {
+  background-color: white;
+  margin: auto;
+  width: 310px;
+  gap: 25px;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 3.5%;
+}
+.account__card__mobilenumber {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.account__card__mobilenumber__text {
+  opacity: 0.6;
+  font-size: 10px;
+  color: #282c3f;
+}
+.account__card__mobilenumber__number {
+    padding-top: 6px;
+    font-weight: lighter;
+    font-size: 13px;
+}
+.account__card__create__password__div__input {
+  border: 1px solid #d4d5d9;
+  font-size: 12px;
+  height: auto;
+  line-height: 16px;  
+  padding: 11px 12px;
+  outline: none;
+  caret-color: #ff3f6c;
+}
+
+.inputOnFocus {
+  transition: 0.4s;
+  border: 1px solid #282c34;
+  color: black;
+}
+.inputPlaceHolder{
+    background-color: white;
+    padding:0px 2px;
+    color: red;
+    transform: translateY(-1.7em);
+}
+.account__card__create__password__placeholder{
+  color: #94969f;
+  z-index: 1;
+  font-size: 12px;
+  position: absolute;
+  line-height: 1.5;
+  left: 1rem;
+  top: .7rem;
+  transition: all 0.2s ease;
+}
+input:focus::placeholder {
+  color: transparent;
+}
+.account__card__create__password__validation {
+  display: flex;
+  flex-direction: row;
+  gap: 7px;
+  padding-top: 6px;
+}
+
+.validation__box {
+  background-color: rgba(40, 44, 63, 0.05);
+  padding: 6px 8px 8px 8px;
+}
+.validationBox{
+    background-color: #e7f4f2;
+    padding: 6px 8px 8px 8px;
+}
+.validationBoxText{
+    color: #0bc6a0;
+}
+.validation__box__text {
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: .2px;
+  opacity: 0.5;
+}
+.select__gender__text {
+  display: inline-block;
+  color: #94969f;
+  font-size: 14px;
+  position: relative;
+  vertical-align: top;
+  top: 2px;
+}
+.select__gender {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+.select__gender__btn {
+  display: inline-block;
+}
+.select__gender__btn__text {
+  color: #94969f;
+  font-size: 14px;
+  position: relative;
+  vertical-align: top;
+  top: 2px;
+}
+.select__gender__div {
+  padding-right: 30px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.buttonFill {
+  fill: #0bc6a0;
+}
+.account__card__phonenumber__text {
+  position: relative;
+  margin-bottom: 10px;
+  color: #94969f;
+  font-size: 10px;
+}
+.account__card__button__div {
+  position: sticky;
+  bottom: 20px;
+  width: 400px;
+  display: flex;
+  margin: auto;
+}
+.account__card__create__password__div{
+    position: relative;
+}
+.account__card__input__placeholder{
+    color: #94969f;
+    z-index: 1;
+    font-size: 12px;
+    position: absolute;
+    line-height: 1.5;
+    left: 1rem;
+    top: .7rem;
+    transition: all 0.2s ease;
+}
+.account__card__button__div{
+    z-index: 999;
+}
+.account__card__button {
+    cursor: pointer;
+    background-color: #ff3f6c;
+    width: 100%;
+    border: none;
+    padding: 10px;
+    color: white;
+    font-weight: 700;
+    letter-spacing: .5px;
+    font-size: 13px;
+}
+.errormessage{
+    font-size: 10px;
+    color: #ff5722;
+    margin-bottom: 5px;
+}

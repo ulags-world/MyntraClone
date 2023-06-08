@@ -1,0 +1,81 @@
+@font-face {
+    font-family: myntra;
+    src: url('../../assets/font/whitneymedium.otf');
+}
+.profile:hover{
+    display: block;
+}
+.profile{
+    padding: 24px 20px;
+    height: 400px;
+    width: 260px;
+    position: absolute;
+    background-color: white;
+    left: 61em;
+    bottom: 8.6em;
+    display: none;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.2);
+}
+.profile_card{
+    display: flex;  
+    flex-direction: column;
+    gap:10px;
+    padding: 10px;
+}
+.profile__card__welcome__textone{
+    color: #3e4152;
+    font-size: 6.5px;
+    font-family: myntra;
+    letter-spacing: .3px;
+}
+.profile__card__welcome__texttwo{
+    font-family: myntra;
+    color: #3e4152;;
+    padding-top: 4px;
+    font-size: 14px;
+}
+.profile__card__welcome__login{
+    padding-top: 16px;
+}
+.profile__card__welcome__button{
+    background-color: white;
+    border: 1px solid #f5f5f6;
+    font-size: 12px;
+    padding: 10px 20px;
+    color: #ff3f6c;
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile__card__welcome__button:hover{
+border: 1px solid red;
+}
+.profile__card__linebreak{
+    padding-top: 10px;
+    border-bottom: 2px solid #f5f5f6;
+}
+.profile__card__listone{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+    font-family: myntra;
+    color: #3e4152;
+    font-weight: lighter;
+    font-size: 14px;
+    font-weight: 300;
+    cursor: pointer;
+}
+.profile__card__listone__link:hover{
+    font-weight: 700;
+    color: black;
+}
+.profile__card__hello{
+    font-size: 13.5px;
+    font-weight: 600;
+    opacity: .8;
+    letter-spacing: .5px;
+}
+.profile__card__mobilenumber{
+    padding-top: 5px;
+    font-size: 12px;
+}

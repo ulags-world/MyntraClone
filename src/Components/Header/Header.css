@@ -1,0 +1,123 @@
+ @font-face {
+    font-family: myntra;
+    src: url('../../assets/font/whitneymedium.otf');
+}
+.header{
+    display: flex;
+    padding:20px 10px 0px 50px;
+    font-family: myntra;
+    gap: 36px;
+    height: 60px;
+    box-shadow: 0 4px 12px 0 rgba(0,0,0,.05);
+}
+.header__logo{
+    padding-top: 2px;
+    height: 40px;
+    width: 50px;
+}
+.header__list__ul{
+    display: flex;
+    justify-content: flex-start;
+    gap: 2px;
+}
+.new{
+    position: relative;
+    font-size: 8px;
+    left: .5em;
+    top: -1em;
+    color: #ff3f6c;
+}
+.header__list__ul__contents{
+
+    cursor: pointer;
+    text-align: center;
+    padding: 13px 20px 0px 12px;
+    font-size: 12.5px;
+    font-weight: bolder;
+    color: #282c3f;
+    letter-spacing: .5px;
+    padding-bottom: 32px;
+}
+.header__list__ul__contents:hover{
+    border-bottom: 2px solid black;
+}
+
+.header__search{
+    display: flex;
+    flex-direction: row;
+    padding-left: 30px;
+}
+.header__search__no__profile{
+    display: flex;
+    flex-direction: row;
+    padding-left: 100px;
+}
+.header__search__content{
+    display: flex;
+    flex-direction: row;
+}
+.header__search__input{
+    background-color: #f5f5f6;
+    padding-left:15px;
+    font-size: 13px;
+    padding-bottom: 4px;
+    border: none;
+    border-left: 0;
+    outline: transparent;
+    height: 36px;
+    border-radius: 0px 5px 5px 0px;
+    width: 320px;
+}
+
+.header__search__input:focus{
+    background-color: white;
+    border-top: 1px solid #f5f5f6;
+    border-right: 1px solid #f5f5f6;
+    border-bottom: 1px solid #f5f5f6; 
+}
+.header__search__content__div{
+    height: 40px;
+    background-color: #f5f5f6;
+    border-radius: 5px 0px 0px 5px;
+}
+.header__search__logo{
+    padding-top: 12px;
+    padding-left: 12px;
+    height:13px;
+    width: 13px;
+}
+
+/* resolve input */
+.header__user__details__logo{
+    height: 20px;
+    width: 20px;
+    align-items: center;
+}
+.header__user{
+    display: flex;
+    gap: 22px;
+}
+.header__user__details__others {
+    cursor: pointer;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__user__details__description {
+    padding-top: 2px;
+    font-size: 13px;
+}
+.header__user__details__profile{
+    cursor: pointer;
+    padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header__user__details:hover{
+    border-bottom: 3px solid #ee5f73;
+}
+.header__user__details__profile__no{
+    display : none;
+}

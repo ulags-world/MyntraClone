@@ -1,0 +1,26 @@
+a{
+    cursor: pointer;
+}
+.ad{
+    padding-top: 20px;
+}
+.ad__rowone{
+    display: flex;
+    flex-direction: row;
+}
+.ad__rowone__image{
+    height: 130px;
+    width: 322px;
+}
+.ad__rowtwo{
+    position: relative;
+    bottom: .3em;
+    display: flex;
+    flex-direction: row;
+}
+.ad__rowthree{
+    position: relative;
+    bottom: .6em;
+    display: flex;
+    flex-direction: row;
+}

@@ -1,0 +1,68 @@
+.login__card__details__phone__input{
+    width: 280px;
+    padding: 4px;
+    height: 30px;
+    border: 1px solid #d4d5d9;
+    outline: none;
+    color: #94969f;
+    font-size: 13px;
+    padding-left: 55px;
+  }
+  .login__card__details__phone__input__account{
+    width: 240px;
+    padding: 4px;
+    height: 30px;
+    border: 1px solid #d4d5d9;
+    outline: none;
+    color: #94969f;
+    font-size: 13px;
+    padding-left: 55px;
+  }
+    .login__card__details__phone__input::-webkit-outer-spin-button,
+    .login__card__details__phone__input::-webkit-inner-spin-button{
+      -webkit-appearance: none;
+      margin: 0;
+    }
+  .login__card__details__phone__input:focus{
+    transition: ease-in 200ms;
+    transform: scale(1.001);
+    border: .3px solid #424553;
+  }
+  .login__card__details__phone__error__default{
+    display: none;
+  }
+  .login__card__details__phone__error{
+    display: block;
+    font-size: 10px;
+    color: #ff5722;
+    margin-top: 4px;
+  }
+  .login__card__details__phone__error__default{
+    display: none;
+  }
+  .login__card__details__phone__input__91{
+    color: #94969f;
+    top: 10px;
+    left: 12px;
+    font-size: 14px;
+    position: absolute;
+    pointer-events: none
+  }
+  .login__card__details__phone__input__91__focus{
+    color: #424553;;
+  }
+  .login__card__details__phone__input__91__seperator{
+    padding: 0px 10px;
+  }
+  .login__card__details__phone__input__91__mobilenumber__star{
+    color: rgb(255, 87, 34);
+  }
+  .input91{
+    color: black;
+  }
+  .inputmobilenumber{
+    display : none;
+  }
+  .inputfocus{
+    color: #424553;
+  }

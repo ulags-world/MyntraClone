@@ -1,0 +1,19 @@
+
+.otp__card__resendotp{
+    color:#ff3f6c;
+    padding-left: 12px;
+    font-size: 11.5px;
+    letter-spacing: .4px;
+    font-weight: 600;
+}
+.otp__card__reset__otp{
+    padding-top: 10px;
+    font-size: 12px;
+    padding-left: 12px;
+    opacity: .3;
+    font-weight: 300;
+}
+.otp__card__reset__otp__timer{
+    font-weight: 600;
+    font-size: 12px;
+}

@@ -1,0 +1,133 @@
+.sign{
+  background-color: rgb(252,238,234);
+  padding-top: 29px;
+  height: 82vh;
+}
+.login__card {
+  background-color: white;
+  margin: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 30px;
+}
+
+.login__card__coupon__image {
+  height: 160px;
+  width: 100%;
+}
+.login__card__details {
+  padding: 35px 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.login__card__details__p{
+  color: #535766;
+  font-family: 100;
+}
+.login__card__details__text{
+  letter-spacing: .5px;
+  font-size: 19px;
+  font-weight: bold;
+  color: #424553;
+}
+.login__card__details__phone {
+  position: relative;
+}
+.login__card__details__phone__input{
+  width: 280px;
+  padding: 4px;
+  height: 30px;
+  border: 1px solid #d4d5d9;
+  outline: none;
+  color: #94969f;
+  font-size: 13px;
+  padding-left: 55px;
+}
+.login__card__details__phone__input::-webkit-outer-spin-button,
+.login__card__details__phone__input::-webkit-inner-spin-button{
+  -webkit-appearance: none;
+  margin: 0;
+}
+.login__card__details__phone__input:focus{
+  transition: ease-in 200ms;
+  transform: scale(1.001);
+  border: 1px solid black;
+}
+.login__card__details__phone__error__default{
+  display: none;
+}
+.login__card__details__phone__error{
+  display: block;
+  font-size: 10px;
+  color: #ff5722;
+  margin-top: 4px;
+}
+.login__card__details__phone__error__default{
+  display: none;
+}
+.login__card__details__phone__input__91{
+  color: #94969f;
+  top: 10px;
+  left: 12px;
+  font-size: 14px;
+  position: absolute;
+  pointer-events: none
+}
+.login__card__details__phone__input__91__focus{
+  color: #424553;;
+}
+.login__card__details__phone__input__91__seperator{
+  padding: 0px 10px;
+}
+.login__card__details__phone__input__91__mobilenumber__star{
+  color: rgb(255, 87, 34);
+}
+.input91{
+  color: black;
+}
+.inputmobilenumber{
+  display : none;
+}
+.inputfocus{
+  color: #424553;
+}
+.login__card__details__footer{
+  font-size: 13px;
+  color: #424553;
+}
+.login__card__details__footer__text{
+  color: #ff3c6f;
+  font-weight: 200;
+}
+.login__card__details__continue{
+  width: 100%;
+  height: 40px;
+  background-color: #ff3c6f;
+  border: none;
+  color: white;
+  font-weight: 600;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (max-width: 600px){
+  .sign{
+    padding-top: 0;
+    overflow: hidden;
+  }
+  .login__card{
+    width: 100%;
+  }
+  .login__card__coupon__image{
+    width: 100%;
+    height: 250px;
+  }
+  .login__card__details{
+    padding: 35px 15px;
+  }
+}

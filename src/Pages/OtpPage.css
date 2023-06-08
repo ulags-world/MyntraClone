@@ -1,0 +1,80 @@
+.otp{
+    background-color: rgb(252,238,234);
+    padding-top: 29px;
+    height: 82vh;
+}
+.otp__card{
+    background-color: white;
+    margin: auto;
+    width: 310px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 55px 45px;
+    padding-bottom: 80px;
+}
+.otp__card__logo{
+    padding-left: 14px;
+    height: 90px;
+    width: 90px;
+}
+.otp__card__verify{
+    padding-left: 14px;
+    display: flex;
+    flex-direction: column;
+}
+.otp__card__verify__text{
+    font-weight: 600;
+    font-size: 18.5px;
+    letter-spacing: .7px;
+    padding-bottom: 10px;
+}
+.otp__card__verify__mobilenumber{
+    font-size: 12px;
+    opacity: .5;
+    font-weight: 400;
+}
+.otp__card__input{
+    padding-top: 24px;
+    padding-left: 14px;
+    display: flex;
+    gap: 15px;
+}
+.otp__card__input__box{
+    height: 38px;
+    border :1px solid #d4d5d9;
+    border-radius: 2px;
+    text-align: center;
+}
+.otp__card__input__box:focus{
+    outline: none;
+    border: .9px solid black;
+    caret-color: #ff2459;
+    font-size: 13px;
+}
+.otp__card__loginpassword{
+    padding-top: 14px;
+    font-size: 12px;
+    padding-left: 12px;
+    color: #282c3f;
+}
+.otp__card__loginpassword__link{
+    color:#ff3f6c;
+    font-weight: 600;
+    letter-spacing: .3px
+}
+.incorrect__otp__popup{
+    width: 100px;
+    height: 30px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ff5a5a;
+    position: absolute;
+    top: 4.8em;
+    left: 42em;
+    border-radius: 4px;
+    animation: boxShadow .3s cubic-bezier(.4,0,.2,1) 0s;;
+}
